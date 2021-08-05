@@ -48,10 +48,7 @@ defmodule Html5ever.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:rustler,
-       github: "rusterlium/rustler",
-       sparse: "rustler_mix",
-       ref: "c882c95aed3eed5cdbf193a8e44c46ef60ad6be8"},
+      {:rustler, "~> 0.22.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
